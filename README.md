@@ -15,7 +15,7 @@ Recent advances in large language models, especially in natural language underst
 ![teaser](./assets/motionr1-main.png)
 ## Method Overview
 
-The framework consists of two stages: (1) MotionCoT Data Engine uses DeepSeek-R1 to generate CoT-style motion planning traces in <think>, <output>, and <Motion> format to fine-tune an LLM; (2) GRPO-based training ranks grouped outputs by format, motion, and semantic rewards to optimize the LLM via reinforcement learning.
+The framework consists of two stages: (1) MotionCoT Data Engine uses DeepSeek-R1 to generate CoT-style motion planning traces in `<think>`, `<output>`, and `<Motion>` format to fine-tune an LLM; (2) GRPO-based training ranks grouped outputs by format, motion, and semantic rewards to optimize the LLM via reinforcement learning.
 
 
 ![pipeline](./assets/motionr1-pipeline.png)
