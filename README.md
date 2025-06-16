@@ -20,6 +20,10 @@ The framework consists of two stages: (1) MotionCoT Data Engine uses DeepSeek-R1
 
 ![pipeline](./assets/motionr1-pipeline.png)
 
+## Comparisons
+We compare Motion-R1 against baselines such as MoMask and MotionLLM. As shown in Left of Figure, Motion-R1 produces smooth, well-structured sequences for simple and multi-step instructions. To evaluate generalization beyond the training distribution, we present qualitative comparisons under two types of out-of-distribution captions, as shown in middle and right of Figure.
+
+![comparison](./assets/motionr1-comparison.png)
 
 ## BibTeX
 
