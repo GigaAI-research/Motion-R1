@@ -18,7 +18,8 @@ Text-to-Motion generation has become a fundamental task in human-machine interac
 The framework consists of two stages: (1) MotionCoT Data Engine uses DeepSeek-R1 to generate CoT-style motion planning traces in `<think>`, `<output>`, and `<Motion>` format to fine-tune an LLM; (2) GRPO-based training ranks grouped outputs by format, motion, and semantic rewards to optimize the LLM via reinforcement learning.
 
 
-![pipeline](./assets/motionr1-pipeline.png)
+<img width="2331" height="1634" alt="image" src="https://github.com/user-attachments/assets/1c2dbbc5-2e7a-4530-8277-8f1078d76beb" />
+
 
 ## Comparisons
 We compare Motion-R1 against baselines such as MoMask and MotionLLM. As shown in Left of Figure, Motion-R1 produces smooth, well-structured sequences for simple and multi-step instructions. To evaluate generalization beyond the training distribution, we present qualitative comparisons under two types of out-of-distribution captions, as shown in middle and right of Figure.
