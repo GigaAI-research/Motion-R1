@@ -2,6 +2,8 @@
   
 # Motion-R1: Enhancing Motion Generation with Decomposed Chain-of-Thought and RL Binding
 
+## ICLR 2026
+
 </div>
 
 ## [Project Page](https://motion-r1.github.io/) | [Paper](https://arxiv.org/abs/2506.10353)
